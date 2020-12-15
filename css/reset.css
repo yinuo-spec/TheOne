@@ -1,0 +1,32 @@
+html,body{
+    height: 100%;
+}
+span,ul,ul li,ol li,a,textarea,table,th,td,tr,h1,
+h2,h3,h4,h5,h6,img,input,select,form,fieldset,legend,
+optgroup,dl,dt,dd,div,html,body,p,header{
+    margin: 0;padding: 0;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+ul li,ol li{
+    list-style: none;
+}
+.clearfix:after{
+	content: "";
+	clear: both;
+	height: 0;
+	visibility: hidden;
+	display: block;
+}
+
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+input,option{
+    outline: none;
+}

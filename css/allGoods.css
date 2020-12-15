@@ -1,0 +1,243 @@
+.main{
+    width: 1280px;
+    margin: 0 auto;
+}
+body{
+    background-color: #f5f5f5;
+}
+.header{
+    background-color: black;
+    height: 67px;
+    border-bottom: 1px solid #222;
+    padding: 20px 0;
+}    
+.header img[alt="聚诚品"]{
+    height: 64px;
+}
+.header-right span{
+    font-size: 14px;
+    line-height: 64px;
+}
+.header-right .icon-denglu,.header-right .icon-gouwuche{
+    font-size: 21px;
+    color: #f6f7ef;
+    margin-left: 40px;
+}
+.search{
+    float: left;
+    width: 240px;
+    background-color: #242424;
+    position: absolute;
+    right: 423px;
+    height: 40px;
+    margin-top: 13px;
+    border-radius: 25px;
+}
+.search-list{
+    width: 208px;
+    background-color: #fff;
+    position: absolute;
+    z-index: 100;
+    right: 436px;
+    top: 75px;
+    display: none;
+}
+.search-list ul{
+    margin-left: 5px;
+}
+.search-list li:nth-child(1) a{
+    color: #adabab;
+}
+.search-list a{
+    color: #242422;
+    font-size: 12px;
+}
+.search input{
+    line-height: 40px;
+    border: none;
+    z-index: 50;
+    background-color: #242424;
+    color: #fff;
+}
+.header .search a{
+    vertical-align: middle;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url(../images/聚诚品-腾讯官方周边商城/ico-comm.png) no-repeat -80px -3px;
+    text-indent: -9999em;
+    margin: 0 5px 0 5px;
+}
+.nav{
+    background-color: black;
+    height: 56px;
+}
+.nav a{
+    color: #fff;
+    display: block;
+}
+.nav-list li{
+    float: left;
+    line-height: 56px;
+    width: 129px;
+    text-align: center;
+}
+.nav-list li:hover{
+    background:url(../images/聚诚品-腾讯官方周边商城/ico-comm.png) -30px -92px;
+} 
+.nav .lei{
+    line-height: 56px;
+}
+.nav .lei::after{
+    content: "";
+    display: inline-block;
+    width: 16px;
+    height: 21px;
+    background: url(../images/聚诚品-腾讯官方周边商城/ico-comm.png) no-repeat -95px 7px;
+    vertical-align: -1px;
+}
+.nav .lei:hover::after{
+    background: url(../images/聚诚品-腾讯官方周边商城/ico-comm.png) no-repeat -64px 7px;
+}
+.cascading-menu .nav-menu{
+    width: 1000px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+.cascading-menu .list_menu{
+    float: left;
+    width: 80px;
+    text-align: center;
+    margin: 0 10px;
+    margin-top: 25px;
+    font-weight: bold;  
+}
+.cascading-menu .list_menu p{
+    line-height: 34px;
+    border-bottom: 4px solid #e3e3e3;
+}
+.cascading-menu .middle-menu{
+    margin-top: 16px;
+}
+.cascading-menu .middle-menu li{
+    line-height: 30px;
+    font-size: 14px;
+    font-weight: normal;
+}
+.cascading-menu{
+    display: none;
+    position: absolute;
+    margin: 0 auto;
+    width: 100%;
+    background-color: #fff;
+    z-index: 99;
+}
+.lol{
+    width: 100%;
+    background-color: #f5f5f5;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.lol-header p{
+    color: #999999;
+    line-height: 50px;
+}
+.lol .lol-header span{
+    color: #333333;
+}
+.lol  .lol-content{
+    width: 1180px;
+    margin: 0 auto;
+    border-bottom: 1px solid #eee;
+    padding: 11px 0;
+}
+.lol #list1{
+    background-color: white;
+}
+.lol .lol-content dt{
+    float: left;
+    line-height: 30px;
+}
+.lol .lol-content dd{
+    float: left;
+    cursor: pointer;
+    padding: 0 20px;
+    line-height: 30px;
+}
+.lol  .up{
+    display: inline-block;
+    height: 8px;
+    width: 8px;
+    vertical-align: middle;
+    background: url(../images/聚诚品-腾讯官方周边商城/ico-comm.png) -79px -64px; 
+}
+.lol .lol-content dt:nth-child(1){
+    color: #999999;
+}
+ #list1 .lol-content dd{
+    color: #666666;
+}
+.lol .lol-content .dd-bgcolor{
+    font-weight: bold;
+}
+.lol-content .flt-check{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url(../images/聚诚品-腾讯官方周边商城/ico-comm.png) -2px -2px;
+    vertical-align: -3px;
+    margin-right: 5px;
+}
+.lol .flxBox{
+    width: 1180px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.lol .flxBox .lol-right{
+    margin-left: 450px;
+}
+.content{
+    width: 1280px;
+    margin: 0 auto;
+    height: 500px;
+    background-color: #fff;
+}
+.content img{
+    width: 280px;
+    height: 260px;
+}
+.content .main{
+    width: 1208px;
+}
+.content ul{
+    padding: 40px 0 20px;
+    overflow: hidden;
+}
+.content li{
+    width: 280px;
+    height: 331px;
+    overflow: hidden;
+    float: left;
+    border: 1px solid #eee;
+    margin:  0 10px 20px;
+    text-align: center;
+    color: #444444;
+    transition: all .2s linear;
+}
+.content dt{
+    line-height: 24px;
+    white-space: nowrap;
+}
+.content dd{
+    line-height: 25px;
+    color: #f7545f;
+}
+.content li:hover{
+    z-index: 2;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+    transform: translate3d(0, -2px, 0);
+}
+.pagination{
+    cursor: pointer;
+}

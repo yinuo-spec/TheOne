@@ -1,0 +1,343 @@
+.main{
+    width: 1280px;
+    margin: 0 auto;
+}
+.header{
+    background-color: black;
+    height: 67px;
+    border-bottom: 1px solid #222;
+    padding: 20px 0;
+}    
+.header img[alt="聚诚品"]{
+    height: 64px;
+}
+.header-right span{
+    font-size: 14px;
+    line-height: 64px;
+}
+.header-right .icon-denglu,.header-right .icon-gouwuche{
+    font-size: 21px;
+    color: #f6f7ef;
+    margin-left: 40px;
+}
+.search{
+    float: left;
+    width: 240px;
+    background-color: #242424;
+    position: absolute;
+    right: 423px;
+    height: 40px;
+    margin-top: 13px;
+    border-radius: 25px;
+}
+.search-list{
+    width: 208px;
+    background-color: #fff;
+    position: absolute;
+    z-index: 100;
+    right: 436px;
+    top: 75px;
+    display: none;
+}
+.search-list ul{
+    margin-left: 5px;
+}
+.search-list li:nth-child(1) a{
+    color: #adabab;
+}
+.search-list a{
+    color: #242422;
+    font-size: 12px;
+}
+.search input{
+    line-height: 40px;
+    border: none;
+    z-index: 50;
+    background-color: #242424;
+    color: #fff;
+}
+.header .search a{
+    vertical-align: middle;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url(../images/聚诚品-腾讯官方周边商城/ico-comm.png) no-repeat -80px -3px;
+    text-indent: -9999em;
+    margin: 0 5px 0 5px;
+}
+.nav{
+    height: 56px;
+    background-color: black;
+    height: 56px;
+}
+.nav a{
+    color: #fff;
+    display: block;
+}
+.nav-list li{
+    float: left;
+    line-height: 56px;
+    width: 129px;
+    text-align: center;
+}
+.nav-list li:hover{
+    background:url(../images/聚诚品-腾讯官方周边商城/ico-comm.png) -30px -92px;
+} 
+.nav .lei{
+    line-height: 56px;
+}
+.nav .lei::after{
+    content: "";
+    display: inline-block;
+    width: 16px;
+    height: 21px;
+    background: url(../images/聚诚品-腾讯官方周边商城/ico-comm.png) no-repeat -95px 7px;
+    vertical-align: -1px;
+}
+.cascading-menu .nav-menu{
+    width: 1000px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+.cascading-menu .list_menu{
+    float: left;
+    width: 80px;
+    text-align: center;
+    margin: 0 10px;
+    margin-top: 25px;
+    font-weight: bold;  
+}
+.cascading-menu .list_menu p{
+    line-height: 34px;
+    border-bottom: 4px solid #e3e3e3;
+}
+.cascading-menu .middle-menu{
+    margin-top: 16px;
+}
+.cascading-menu .middle-menu li{
+    line-height: 30px;
+    font-size: 14px;
+    font-weight: normal;
+}
+.cascading-menu{
+    display: none;
+    position: absolute;
+    margin: 0 auto;
+    width: 100%;
+    background-color: #fff;
+    z-index: 99;
+}
+
+.banner{
+    height: 412px;
+    overflow: hidden;
+}
+.imgBox img{
+    width: 100%;
+    float: left;
+    position: absolute;
+}
+.btn a{
+    display: block;
+    width: 28px;
+    height: 4px;
+    float: left;
+    background-color: white;
+    margin-left: 8px;
+    border-radius: 20%;
+    cursor: pointer;
+}
+.imgOne{
+    z-index: 1;
+}
+.btn{
+    width: 180px;
+    position: relative;
+    z-index: 1;
+    top: 360px;
+    margin: 0 auto;
+}
+.btn .btn-bgcolor{
+    background-color: yellow;
+}
+.games{
+    background-color: #f5f5f5;
+    height: 2624px;
+    font-size: 14px;
+}
+.games .main{
+    height: 2600px;
+    background-color: #fff;
+    position: relative;
+    top: -30px;
+    z-index: 99;
+    border-radius: 8px;
+}
+.games .main .gamens-main{
+    width: 1200px;
+    margin: 0 auto;
+}
+.games-header1,.games-header2,.games-header3,.games-header4{
+    height: 32px;
+    line-height: 32px;
+    padding-top: 55px;
+}
+.games-header1 h1,.games-header1 h1,.games-header3 h1,.games-header1 h4{
+    margin-right: 32px;
+}
+.more span{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color:#ffc933;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 20px;
+}
+.games .gamens-main .games-header1 .icon-hao{
+    font-size: 14px;
+}
+.games-content1,.games-content2,.games-content4{
+    margin-top: 20px;
+}
+.games-content1 li{
+    float: left;
+    margin: 0 9px;
+}
+.games-content1 li a,.games-content2 li a,.games-content3 li a,.games-content4 li a{
+    display: block; 
+}
+.games-content1 li:hover img{
+    transition: all .2s linear;
+    transform: translate3d(0, -2px, 0);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+}
+.games .games-header2 .icon-hao{
+    font-size: 14px;
+}
+.games-content2 li,.games-content3 li,.games-content4 li{
+    float: left;
+    margin: 10px 6px;
+    border: 1px solid #ccc;
+}
+.games-content2 li img,.games-content4 li img{
+    width: 280px;
+    height: 268px;
+}
+.games-content2 li:hover{
+    transition: all .2s linear;
+    transform: translate3d(0, -2px, 0);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+}
+.games-content2 dl,.games-content3 dl,.games-content4 dl{
+    text-align: center;
+}
+.games-content2 dl dd,.games-content3 dl dd,.games-content4 dl dd{
+    color: red;
+}
+.games .gamens-main .games-header3 .icon-hao{
+    font-size: 14px;
+}
+.games-content3{
+    height: 500px;
+}
+.games-content3  li img{
+    width: 280px;
+    height: 268px;
+}
+.games-content3 li:hover{
+    transition: all .2s linear;
+    transform: translate3d(0, -2px, 0);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+}
+.games .gamens-main .games-header4 .icon-hao{
+    font-size: 14px;
+}
+.games-content4 li:hover{
+    transition: all .2s linear;
+    transform: translate3d(0, -2px, 0);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+}
+.footer{
+    background-color: #242424;
+}
+.footer .main1{
+    border-bottom: 1px solid #ccc;
+}
+.footer-left{
+    margin: 30px 0 0 50px;
+}
+.footer-center{
+    width: 397px;
+    height: 135px;
+    margin: 50px 0 0 20px;
+    border-left: 1px solid #606060;
+    border-right: 1px solid #606060;
+}
+.footer-center a{
+    display: inline-block;
+    width: 118px;
+    height: 55px;
+    color: #a8a8a8;
+    padding: 0 38px;
+    line-height: 30px;
+}
+.footer-center span{
+    vertical-align: top;
+    margin-left: 10px;
+}
+.footer-center .iconfont{
+    color: #ffc933;
+    font-size: 30px;
+}
+.footer-right{
+    padding: 50px 0 20px 33px;
+    margin-bottom: 50px;
+}
+.footer-right dl{
+    float: left;
+    padding: 0 45px;
+}
+.footer-right dd{
+    color: #fff;
+}
+.footer-right img{
+    width: 100px;
+    height: 100px;
+}
+.footer .main,.copy1,.copy2{
+    display: flex;
+    justify-content: space-around;
+}
+.copy{
+    padding: 30px 0 0 40px;
+}
+.copy li{
+    margin: 0 2px;
+    line-height: 16px;
+    font-size: 12px;
+    float: left;
+}
+.copy li a,.copy1,.copy2{
+    color: #777777;
+}
+.copy1,.copy2{
+    font-size: 12px;
+    margin: 3px 0;
+}
+.last{
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 0;
+}
+.last a{
+    color: #777777;
+    font-size: 12px;
+}
+.header-right  em{
+    display: inline-block;
+   font-style: unset;
+    font-size: 14px;
+    /* display: none; */
+    text-indent: -9999em;
+}
