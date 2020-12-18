@@ -1,0 +1,441 @@
+.main{
+    width: 1280px;
+    margin: 0 auto;
+}
+.header{
+    background-color: black;
+    height: 67px;
+    border-bottom: 1px solid #222;
+    padding: 20px 0;
+}    
+.header img[alt="聚诚品"]{
+    height: 64px;
+}
+.header-right span{
+    font-size: 14px;
+    line-height: 64px;
+}
+.header-right .icon-denglu,.header-right .icon-gouwuche{
+    font-size: 21px;
+    color: #f6f7ef;
+    margin-left: 40px;
+}
+.search{
+    float: left;
+    width: 240px;
+    background-color: #242424;
+    position: absolute;
+    right: 423px;
+    height: 40px;
+    margin-top: 13px;
+    border-radius: 25px;
+}
+.search-list{
+    width: 208px;
+    background-color: #fff;
+    position: absolute;
+    z-index: 100;
+    right: 436px;
+    top: 75px;
+    display: none;
+}
+.search-list ul{
+    margin-left: 5px;
+}
+.search-list li:nth-child(1) a{
+    color: #adabab;
+}
+.search-list a{
+    color: #242422;
+    font-size: 12px;
+}
+.search input{
+    line-height: 40px;
+    border: none;
+    z-index: 50;
+    background-color: #242424;
+    color: #fff;
+}
+.header .search a{
+    vertical-align: middle;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url(../images/聚诚品-腾讯官方周边商城/ico-comm.png) no-repeat -80px -3px;
+    text-indent: -9999em;
+    margin: 0 5px 0 5px;
+}
+.nav{
+    height: 56px;
+    background-color: black;
+    height: 56px;
+}
+.nav a{
+    color: #fff;
+    display: block;
+}
+.nav-list li{
+    float: left;
+    line-height: 56px;
+    width: 129px;
+    text-align: center;
+}
+.nav-list li:hover{
+    background:url(../images/聚诚品-腾讯官方周边商城/ico-comm.png) -30px -92px;
+} 
+.nav .lei{
+    line-height: 56px;
+}
+.nav .lei::after{
+    content: "";
+    display: inline-block;
+    width: 16px;
+    height: 21px;
+    background: url(../images/聚诚品-腾讯官方周边商城/ico-comm.png) no-repeat -95px 7px;
+    vertical-align: -1px;
+}
+.cascading-menu .nav-menu{
+    width: 1000px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+.cascading-menu .list_menu{
+    float: left;
+    width: 80px;
+    text-align: center;
+    margin: 0 10px;
+    margin-top: 25px;
+    font-weight: bold;  
+}
+.cascading-menu .list_menu p{
+    line-height: 34px;
+    border-bottom: 4px solid #e3e3e3;
+}
+.cascading-menu .middle-menu{
+    margin-top: 16px;
+}
+.cascading-menu .middle-menu li{
+    line-height: 30px;
+    font-size: 14px;
+    font-weight: normal;
+}
+.cascading-menu{
+    display: none;
+    position: absolute;
+    margin: 0 auto;
+    width: 100%;
+    background-color: #fff;
+    z-index: 99;
+}
+
+
+
+body{
+    background-color: rgba(0,0,0,0.2);
+}
+.xiangqing{
+    width: 1280px;
+    margin: 0 auto;
+}
+.xiangqing .main{
+    margin: 20px 0 40px;
+}
+.qqq{
+    height: 605px;
+    width: 1280px;
+    margin: 0 auto;
+    background-color: #fff;
+    cursor: pointer;
+}
+.box{
+    width: 458px;
+    height: 438px;
+    border: 2px solid red;
+    position: absolute;
+    left:230px;
+    top:270px;
+}
+.box img{
+    width: 458px;
+    height: 438px;
+}
+.mark{
+    width: 226px;
+    height: 219px;
+    background-color: rgba(0,0,0,0.2);
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    display: none;
+}
+.rightBox{
+    width: 458px;
+    height: 438px;
+    position: absolute;
+    overflow: hidden;
+    left: 700px;
+    top: 270px;
+    border: 1px solid red;
+    display: none;
+}
+.rightBox img{
+    width: 916px;
+    height: 872px;
+    position: absolute;
+}
+
+
+
+
+
+
+
+.footer{
+    background-color: #242424;
+}
+.footer .main1{
+    border-bottom: 1px solid #ccc;
+}
+.footer-left{
+    margin: 30px 0 0 50px;
+}
+.footer-center{
+    width: 397px;
+    height: 135px;
+    margin: 50px 0 0 20px;
+    border-left: 1px solid #606060;
+    border-right: 1px solid #606060;
+}
+.footer-center a{
+    display: inline-block;
+    width: 118px;
+    height: 55px;
+    color: #a8a8a8;
+    padding: 0 38px;
+    line-height: 30px;
+}
+.footer-center span{
+    vertical-align: top;
+    margin-left: 10px;
+}
+.footer-center .iconfont{
+    color: #ffc933;
+    font-size: 30px;
+}
+.footer-right{
+    padding: 50px 0 20px 33px;
+    margin-bottom: 50px;
+}
+.footer-right dl{
+    float: left;
+    padding: 0 45px;
+}
+.footer-right dd{
+    color: #fff;
+}
+.footer-right img{
+    width: 100px;
+    height: 100px;
+}
+.footer .main,.copy1,.copy2{
+    display: flex;
+    justify-content: space-around;
+}
+.copy{
+    padding: 30px 0 0 40px;
+}
+.copy li{
+    margin: 0 2px;
+    line-height: 16px;
+    font-size: 12px;
+    float: left;
+}
+.copy li a,.copy1,.copy2{
+    color: #777777;
+}
+.copy1,.copy2{
+    font-size: 12px;
+    margin: 3px 0;
+}
+.last{
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 0;
+}
+.last a{
+    color: #777777;
+    font-size: 12px;
+}
+.mask{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 9999;
+    background-color: rgba(0,0,0,0.5);
+    display: none;
+}
+.register{
+    width: 622px;
+    height: 404px;
+    position: fixed;
+    left: 50%;
+    right: 50%;
+    top: 50%;
+    bottom: 50%;
+    margin-left: -311px;
+    margin-top: -202px;
+    z-index: 130;
+    background-color: white;
+}
+.register h4{
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+.register form{
+    margin-left: 160px;
+}
+.register input{
+    margin: 0px 0 30px 0;
+    width: 302px;
+    height: 42px;
+}
+.register button{
+    cursor: pointer;
+}
+.register a{
+    color: blue;
+    text-decoration:underline;
+}
+#close{
+    text-decoration: none;
+    background: url(../images/聚诚品-腾讯官方周边商城/ico-comm.png) no-repeat 5px -247px;
+    z-index: 130;
+    position: relative;
+    top: -60px;
+    right: -121px;
+    background-color: #adabab;
+}
+#close{
+    display: inline-block;
+    width: 25px;
+    height: 28px;
+    text-indent: -9999em;
+    z-index: 9999;
+}
+.details{
+    width: 720px;
+    height: 388px;
+    /* border: 1px solid red; */
+    margin: 25px 20px 0 0;
+    color: #aaa;
+}
+.details h3{
+    font-size: 28px;
+    line-height: 36px;
+    color: #242424;
+}
+.details .pord-tips{
+    padding: 22px 0 0;
+    width: 100%;
+    font-size: 14px;
+    line-height: 15px;
+}
+.details .pord-price{
+    padding: 20px 0 15px;
+    width: 100%;
+    font-size: 30px;
+    line-height: 30px;
+    color: red;
+}
+.details .pord-detailBox{
+    /* width: 100%; */
+    padding-right: 20px;
+    height: 60px;
+    line-height: 60px;
+    border-top: 1px dashed #eee;
+    border-bottom: 1px dashed #eee;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+}
+.details .prod-starbox{
+    color: #ffd92c;
+    font-size: 20px;
+}
+.details p span{
+    color: #222;
+}
+.details .pord-selist{
+    padding: 10px 0 0 0;
+}
+.details .pord-selist p{
+    float: left;
+    line-height: 33px;
+}
+.details .pord-selist ul li{
+    float: left;
+    width: 47px;
+    height: 33px;
+    line-height: 33px;
+    border: 1px solid #ddd;
+    text-align: center;
+    margin:0 0 10px 9px;
+    color: #222;
+}
+.details .pord-selist ul{
+    float: left;
+    margin: 0px 0 0 28px;
+}
+.details .totalpage p{
+    float: left;
+    line-height: 36px;
+    margin-right: 38px;
+}
+.details .totalpage .sum{
+    float: left;
+}
+.details .totalpage input{
+    width: 58px;
+    height: 36px;
+    border: 1px solid #ddd;
+    text-align: center;
+    font-size: 16px;
+    vertical-align: top;
+}
+.details .totalpage button{
+    display: inline-block;
+    width: 36px;
+    height: 38px;
+    border: 1px solid #ddd;
+    background-color: white;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+    line-height: 36px;
+    color: #222;
+    text-align: center;
+}
+.details .shops{
+    margin-top: 25px;
+}
+.details .shops button{
+    /* display: inline-block; */
+    width: 200px;
+    height: 56px;
+    font-size: 20px;
+    color: white;
+    background-color: red;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.details .shops button:nth-child(1){
+    margin-right: 30px;
+}
+.details .pord-selist .bg-color{
+    border: 1px solid red;
+}
+

@@ -1,6 +1,5 @@
 <?php
 header('content-type:text/html;charset=utf-8');
-// $goods = $_GET['goods'];
 $link=mysqli_connect('localhost','root','','qqq');
 mysqli_set_charset($link,"utf8");
 $sql = "select * from good_names";

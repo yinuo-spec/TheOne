@@ -96,9 +96,6 @@ body{
     background: url(../images/聚诚品-腾讯官方周边商城/ico-comm.png) no-repeat -95px 7px;
     vertical-align: -1px;
 }
-.nav .lei:hover::after{
-    background: url(../images/聚诚品-腾讯官方周边商城/ico-comm.png) no-repeat -64px 7px;
-}
 .cascading-menu .nav-menu{
     width: 1000px;
     margin: 0 auto;
@@ -146,7 +143,7 @@ body{
     color: #333333;
 }
 .lol  .lol-content{
-    width: 1180px;
+    width: 1228px;
     margin: 0 auto;
     border-bottom: 1px solid #eee;
     padding: 11px 0;
@@ -195,7 +192,7 @@ body{
     justify-content: space-between;
 }
 .lol .flxBox .lol-right{
-    margin-left: 450px;
+    margin-left: 400px;
 }
 .content{
     width: 1280px;
@@ -228,6 +225,8 @@ body{
 .content dt{
     line-height: 24px;
     white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 .content dd{
     line-height: 25px;
@@ -239,5 +238,51 @@ body{
     transform: translate3d(0, -2px, 0);
 }
 .pagination{
+    width: 1190px;
+    margin:30px;
+}
+.pagination .list{
+    float: left;
     cursor: pointer;
+}
+.next{
+    float: left;
+    width: 42px;
+    height: 40px;
+    margin: 0 0 0 4px;
+    cursor: pointer;
+}
+.next::after{
+    content: " ";
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    border-width: 2px 2px 0 0;
+    border-color: #000;
+    border-style: solid;
+    -webkit-transform: matrix(0.71, 0.71, -0.71, 0.71, 0, 0);
+    transform: matrix(0.71, 0.71, -0.71, 0.71, 0, 0);
+    margin: 10px 7px;
+}
+.prev{
+    float: left;
+    width: 42px;
+    height: 40px;
+    margin: 0 0 0 800px;
+    cursor: pointer;
+}
+.prev::after{
+    content: " ";
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    border-width: 2px 2px 0 0;
+    border-color: #000;
+    border-style: solid;
+    -webkit-transform: matrix(-0.71, 0.71,0.71, 0.71, 0, 0);
+    transform: matrix(-0.71, 0.71, 0.71, 0.71, 0, 0);
+    /* position: absolute; */
+    /* left: 0px;
+    top: 0px; */
+    margin: 10px 14px;
 }

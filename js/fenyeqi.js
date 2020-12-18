@@ -16,8 +16,8 @@ function Pagination(ele,options){
         //分页文本信息
         textInfo:{
             list:'',
-            prev:"$lt;",
-            next:"下一页",
+            prev:'',
+            next:"",
         }
     }
     //创建存储页面的实例属性
@@ -71,9 +71,9 @@ Pagination.prototype.createText=function(){
         //判断该键名是否为list对象
         if(attr == 'list'){
             setCss(newDiv,{
-                'display':'flex',
-                'justify-content': 'space-between',
-                'align-items': 'center'
+                // 'display':'flex',
+                // 'justify-content': 'space-between',
+                // 'align-items': 'center'
             })
             //在把当前div对象赋值给this.list实例属性
             this.list=newDiv
@@ -83,9 +83,9 @@ Pagination.prototype.createText=function(){
             newDiv.innerHTML=this.default.textInfo[attr]
             //给当前新div设置样式
             setCss(newDiv,{
-                'border':'1px solid red',
-                'margin':'0px 5px',
-                'padding':'0px 5px'
+                'border':'1px solid black',
+                // 'margin':'5px 5px',
+                'padding':'5px 5px'
             })
         }
         //把新的div对象追加到大盒子中
@@ -164,10 +164,11 @@ function createP(i,num){
     if(i==num){
         //设置样式
         setCss(p1,{
-            'width':'38px',
-            'height':'38px',
+            'width':'42px',
+            'float':'left',
+            'height':'40px',
             'border':'1px solid #eee',
-            'line-height':'38px',
+            'line-height':'40px',
             'text-align':'center',
             'margin':'0px 5px',
             'background-color':'#f3bf19'
@@ -175,10 +176,11 @@ function createP(i,num){
     }else{
         //设置样式
         setCss(p1,{
-            'width':'38px',
-            'height':'38px',
+            'width':'42px',
+            'height':'40px',
+            'float':'left',
             'border':'1px solid #eee',
-            'line-height':'38px',
+            'line-height':'40px',
             'text-align':'center',
             'margin':'0px 5px',
         })
